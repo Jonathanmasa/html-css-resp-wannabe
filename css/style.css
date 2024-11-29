@@ -47,7 +47,7 @@ img {
 
 /* LAYOUT */
 .container {
-    width: 1140px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -127,3 +127,61 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /* versione tablet */
+
+ @media screen and (max-width: 768px) {
+    
+    .container {
+        width: 90%;
+        padding: 0%;
+    }
+ 
+ }
+
+ /* versione mobile */
+
+ @media screen and (max-width: 480px) {
+
+    .container {
+        width: 80%;
+    
+    }
+
+    .row {
+        display: block;
+        
+    }
+
+    .lessons .col {
+        width: 100%;
+        padding-bottom: 50px ;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        padding-top: 20px;
+        
+    }
+
+    .why-us .col-right {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+
+    }
+
+    .card {
+        padding-top: 40px;
+    }
+
+    .why-us {
+        background-color: black;
+    
+        
+    }
+   
+ }
